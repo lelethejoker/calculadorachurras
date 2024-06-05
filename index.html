@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPA</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div>
+        <div id="calculadoraCorpo"> <!--Cabeçalho da calculadora-->
+            <h1 id="cabecalho"><strong>CALCULADORA DO CHURRAS</strong></h1>
+            <!--Dados informados a calculadora-->
+            <div id="dados">
+                <p id="subtitulo">Quantos vai convidar?</p>
+                <div class="homens">
+                    <label>Digite o número de homens na festa</label>
+                    <input type="number" id="numeroHomens" placeholder="Homens">
+                </div>
+
+                <div class="mulheres">
+                    <label>Digite o número de mulheres na festa</label>
+                    <input type="number" id="numeroMulheres" placeholder="Mulheres">
+                </div>
+
+                <div class="criancas">
+                    <label>Digite o número de crianças na festa</label>
+                    <input type="number" id="numeroCrianca" placeholder="Crianças">
+                </div>
+
+                <button onclick="calcularValor()" id="botaoResultado">CALCULAR</button>
+                <!--Fim dos dados informados a calculadora e botão de resultado-->
+                <div id="resultado">
+                    <h2>↓ Resultado ↓ </h2>
+                <div class="numeroResultados">
+                    <p id="carne"></p>
+                    <p id="frango"></p>
+                    <p id="ling"></p>
+                    <p id="refri"></p>
+                    <p id="cerva"></p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

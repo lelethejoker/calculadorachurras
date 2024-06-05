@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Jetbrains Mono Semibold;
+    src: url(JetBrainsMono-SemiBold.ttf);
+}
+
+html {
+    background-color: #ffffff;
+
+}
+
+#calculadoraCorpo {
+    text-align: center;
+    font-family: Jetbrains Mono Semibold;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecalho {
+    background: #2f2a3a;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    font-style: italic;
+    background-color: rgb(33, 23, 56);
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px black;
+    border-style: solid;
+    border-color: black;
+}
+
+#subtitulo {
+    font-size: 20px;
+    color: white;
+    padding: 10px 10px;
+    background-color: rgb(33, 23, 56);
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px black;
+    border-style: solid;
+    border-color: black;
+
+}
+
+#dados {
+    display: flex;
+    flex-direction: column; 
+    padding: 30px 30px;    
+    align-items: center;
+    justify-content: center;
+    background-color: #2f2a3a;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+input {
+    font-family: Jetbrains Mono Semibold, sans-serif;
+    margin: 5px;
+    border-radius: 40px;
+    width: 80px;
+    text-align:center;
+    
+}
+
+label {
+    color: white;
+    margin-top: 20px;
+    
+}
+
+#dados button {
+    margin-top: 20px;
+    background-color: white;
+    font-family: Jetbrains Mono Semibold, sans-serif;
+    font-size: 17px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px black;
+    border-style: solid;
+    border-color: black;
+    
+}    
+
+#resultado {
+    margin-top: 20px;
+    color: white;
+    height: auto;
+    width: 300px;
+    background-color: rgb(33, 23, 56);
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px black;
+    border-style: solid;
+    border-color: black;
+}
+
+.homens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 15px;
+    background-color: rgb(33, 23, 56);
+    box-shadow: 0px 10px 10px;
+    border-style: solid;
+    border-color: black;
+}
+.mulheres {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px;
+    border-radius: 15px;
+    background-color: rgb(33, 23, 56);
+    box-shadow: 0px 10px 10px;
+    border-style: solid;
+    border-color: black;
+}
+.criancas {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px;
+    border-radius: 15px;
+    background-color: rgb(33, 23, 56);
+    box-shadow: 0px 10px 10px;
+    border-style: solid;
+    border-color: black;
+}
+
